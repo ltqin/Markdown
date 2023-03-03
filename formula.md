@@ -138,11 +138,34 @@ $\mathsf{A}\mathsf{B}\mathsf{C}\mathsf{D}\mathsf{E}\mathsf{F}\mathsf{G}\mathsf{H
 + 小空格: a\ b 显示为 $a\ b$
 + 大空格: a \quad b 显示为 $a \quad b$
 
-
+## 4. 数学公式
+### 4.1 初等运算
+|命令|	说明|	输入|	显示|
+| :----| :----:| :---- | :----: | 
+|  =   |  等于  |   x=y | $x=y$  |	
+|  +   |  加   |   x+y  | $x+y$  |	
+|  -   |  减   |   x−y	| $x-y$ |
+| \ast |  乘   |x \ast y|$x \ast y$|	
+| \div |  除   |x \div y|$x \div y$|	
+|\pm   | 加减  | x \pm y |$x \pm y$|	
+|\mp   | 减加  |x \mp y	|$x \mp y$|
+|\times| 叉积  |x \times y|$x \times y$|	
+|\cdot |点积(内积)|x \cdot y|$x \cdot y$|	
+|^     |幂     |x^a|$x^a$|	
+|^     |  指数 |a^x|$a^x$|	
+|\log  |  对数 |\log_ax|$\log_ax$|	
+|\ln   |自然对数(e为底)|\ln x|$\ln x$|	
+|\lg|10为底对数|\lg x|$\lg x$|	
+|\frac|分式|\frac{x}{y}|$\frac{x}{y}$|	
+|\sqrt|二次开方根式|\sqrt{x}|$\sqrt{x}$|	
+|\sqrt|根式|\sqrt[n]{x}|$\sqrt[n]{x}$|	
+|\sqrt|常数二次开方根式|\sqrt{a}|$\sqrt{a}$|
+|\sqrt|常数根式|\sqrt[n]{a}|$\sqrt[n]{a}$|	
+||多项式|a_nx^n + \cdots + a_1x + a_0 \quad n \geq 0|$a_nx^n + \cdots + a_1x + a_0$|	
 
 
 
 
 
 ### 参考：
-1. http://events.jianshu.io/p/8b6fc36035c0
+1. [Markdown-常用数学公式编辑命令](http://events.jianshu.io/p/8b6fc36035c0)
