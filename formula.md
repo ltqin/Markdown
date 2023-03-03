@@ -115,5 +115,34 @@ $\mathsf{A}\mathsf{B}\mathsf{C}\mathsf{D}\mathsf{E}\mathsf{F}\mathsf{G}\mathsf{H
 + 使用{}将具有相同等级的内容扩入其中，成组处理
 + 举例: 10^{10} 呈现为 $10^{10}$，而 10^10 显示为 $10^10$
 
+### 3.5 括号和分隔符
++ ()、[]和|表示符号本身。
++ 当要显示大号的括号或分隔符时，要用 \left 和 \right 命令。 使括号大小和邻近的公式相适应，适应于所有括号。
++ (\frac{x}{y}) 显示为 $$(\frac{x}{y})$$
++ \left(\frac{x}{y}\right) 显示为 $$\left(\frac{x}{y}\right)$$
+
++ 一些特殊的括号：  
+> | 命令 | 说明 | 输入 | 显示 |
+> | :----| :----:| :---- | :----: |    
+> | \langle \rangle |  尖括号  | \langle a+b \rangle | $\langle a+b \rangle$| 
+> | \lceil \rceil   |上方括号  | \lceil a+b \rceil   | $\lceil a+b \rceil$  |  
+> |\lfloor \rfloor	|下方括号  |\lfloor a+b \rfloor	 | $\lfloor a+b \rfloor$|
+> |\lbrace \rbrace	|大括号	  |\lbrace a+b \rbrace   |$\lbrace a+b \rbrace$|
+> |\overline	    |连线符号  |\overline{a+b+c+d}	 |$\overline{a+b+c+d}$|
+> |\underline       |下划线    |\underline{a+b+c+d}  |$\underline{a+b+c+d}$|	
+> |\overbrace       |上大括号  |\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}|$\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$|	
+> |\underbrace      |下大括号  |\underbrace{a+d}_3   |$\underbrace{a+d}_3$|	
+
+### 3.6 空格
++ Latex语法本身会忽略空格的存在。
++ 小空格: a\ b 显示为 $a\ b$
++ 大空格: a \quad b 显示为 $a \quad b$
+
+
+
+
+
+
+
 ### 参考：
 1. http://events.jianshu.io/p/8b6fc36035c0
