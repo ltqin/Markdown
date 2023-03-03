@@ -163,8 +163,25 @@ $\mathsf{A}\mathsf{B}\mathsf{C}\mathsf{D}\mathsf{E}\mathsf{F}\mathsf{G}\mathsf{H
 |\sqrt|常数根式|\sqrt[n]{a}|$\sqrt[n]{a}$|	
 ||多项式|a_nx^n + \cdots + a_1x + a_0 \quad n \geq 0|$a_nx^n + \cdots + a_1x + a_0$|	
 
+### 4.2 比较运算
+|命令|	说明|	输入|	显示|
+| :----| :----| :---- | :----: | 
+|\leq|	小于等于|	x \leq y|$x \leq y$|	
+|\geq|	大于等于|	x \geq y|$x \geq y$|	
+|\nleq|	不小于等于|	x \nleq y|$x \nleq y$|	
+|\not \leq|	不小于等于|	x \not \leq y|$x \not \leq y$|	
+|\ngeq|	不大于等于|	x \ngeq y|$x \ngeq y$|	
+|\not \geq|	不大于等于|	x \not \geq y|$x \not \geq y$|	
+|\neq|	不等于|	x \neq y|$x \neq y$|	
+|\approx|	约等于|	x \approx y|$x \approx y$|	
+|\equiv|	恒等于|	x \equiv y|$x \equiv y$|	
 
 
+## 5. 矩阵
+### 5.1 基本语法
++ 起始标记\begin{matrix}，结束标记\end{matrix}
++ 每一行末尾标记\\，行间元素之间以&分隔
++ 举例:
 
 
 ### 参考：
